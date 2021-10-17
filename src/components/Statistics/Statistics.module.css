@@ -1,0 +1,33 @@
+.statistics {
+  display: block;
+  max-width: 400px;
+  height: 100%;
+  box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%),
+    0px 2px 1px rgb(0 0 0 / 20%);
+  border-radius: 0px 0px 4px 4px;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.title {
+  text-align: center;
+  justify-content: center;
+  font-size: 24px;
+}
+
+.statlist {
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+}
+
+.item {
+  display: inline-grid;
+  box-sizing: border-box;
+  border: 1px solid #2c3e50;
+  background-color: hotpink;
+  color: #fff;
+  text-align: center;
+  justify-content: center;
+  padding: 10px;
+}
